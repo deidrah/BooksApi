@@ -1,9 +1,25 @@
 {
-  "name": "BooksApi",
+  "name": "booksapi",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --watch"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deidrah/BooksApi.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/deidrah/BooksApi/issues"
+  },
+  "homepage": "https://github.com/deidrah/BooksApi#readme"
 }
